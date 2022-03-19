@@ -4,7 +4,7 @@
 
 
 This project illustrates an implementation of the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) in Python. The Luhn Algorithm is the 
-standard method of validating if a credit card number is valid prior to authorization. It is also an interesting algorithm as it teaches
+standard method of validating a credit card number prior to authorization. It is also an interesting algorithm as it teaches
 a lot of the basics and nuances of a language through implementation.
 
 
