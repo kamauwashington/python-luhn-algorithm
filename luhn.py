@@ -6,10 +6,10 @@ def luhn(input : str) -> bool :
         return False
 
     #  keep it clean and pure to avoid failure, strip all non numeric characters from the input    
-    workingInput : str = re.sub(r"[^0-9]","",input)
+    workingInput : str = re.sub(r"[^\d]","",input)
 
     #  ensure that there are at least two digits
-    if not bool(re.search(r"^\d{2,}$",workingInput)) :
+    if len(workingInput) < 2 :
         return False
 
     #  define known math for the luhn algorithm via array : if doubling a number results in a two digit number,
